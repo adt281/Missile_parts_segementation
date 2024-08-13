@@ -1,0 +1,35 @@
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+venv/
+.env/
+.venv/
+virtual_env
+
+# Test files (optional, include if necessary)
+tests/
+
+# Log and temporary files
+*.log
+*.tmp
+
+# Data files (optional, include if sensitive or too large)
+data/
+*.csv
+*.json
+
+# System and editor-specific files (Windows)
+.DS_Store
+Thumbs.db
+Desktop.ini
+.vscode/
+
+# Build artifacts
+build/
+dist/
+*.egg-info
+
+# .gitignore
+app/model/model_final.pth

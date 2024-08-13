@@ -1,0 +1,45 @@
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environments
+venv/
+.env/
+.venv/
+
+# Ignore test files and folders
+tests/
+*.test
+
+# Ignore Dockerfile and docker-compose files
+Dockerfile
+docker-compose.yml
+
+# Ignore git repository files
+.git/
+.gitignore
+
+# Ignore Jupyter Notebook files
+*.ipynb
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Ignore data files and folders (if any)
+data/
+*.csv
+*.json
+
+# Ignore any system files
+.DS_Store
+Thumbs.db
+
+# Ignore any build artifacts
+build/
+dist/
+*.egg-info
